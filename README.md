@@ -2,6 +2,14 @@
 
 Como o próprio título sugere, essa é uma classe responsável por criar formulários HTML.
 
+## Instalação
+
+Para instalar é bem simples, basta ter o composer instalado e rodar o comando abaixo
+
+```shell
+composer require guisaldanha/form-builder
+```
+
 ## Utilização
 
 Para usar essa biblioteca, basta usar o código abaixo
@@ -31,7 +39,7 @@ $form->addField('newsletter*', 'Quero receber novidades e promoções sobre o si
 <?= $form->create() ?>
 ```
 
-É possível, usando o método `setHidePlaceholder` esconder desabilitar o placeholder dos campos, e também não usar o label usando o método setHideLabel
+É possível, usando o método `setHidePlaceholder` esconder desabilitar o placeholder dos campos, e também não usar o label usando o método `setHideLabel`
 
 ## Requerimentos
 
