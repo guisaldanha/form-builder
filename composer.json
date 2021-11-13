@@ -1,0 +1,20 @@
+{
+    "name": "guisaldanha/form-builder",
+    "description": "PHP class to generate HTML 5 forms",
+    "version": "1.0.0",
+    "license": "MIT",
+    "type": "library",
+    "authors": [{
+        "name": "Guilherme Saldanha",
+        "email": "guisaldanha@gmail.com",
+        "homepage": "https://guisaldanha.com"
+    }],
+	"require": {
+		"php": ">=7.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"GuiSaldanha\\FormBuilder\\": "src/"
+		}
+	}
+}
